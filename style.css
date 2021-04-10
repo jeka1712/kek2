@@ -1,0 +1,89 @@
+*{
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif; 
+}
+.bB{
+	width: 100px;
+	height: 100vh;
+	background-color: #454545;
+	transition: width 0.3s ease;
+}
+.bB:hover{
+	width: 300px;
+}
+.bB:hover .b1{
+	width: 300px;
+}
+.bB:hover .b2{
+	width: 300px;
+}
+.bB:hover .t1{
+	opacity: 1;
+}
+.bB:hover .t2{
+	opacity: 1;
+	left: 100px;
+}
+.bB:hover .i1 img{
+	transform: rotate(-180deg);
+}
+img{
+	width: 50px;
+	height: 50px;
+}
+.b1{
+	width: 100px;
+	height: 100px;
+	background-color: #242424;
+	transition: width 0.3s ease;
+	position: relative;
+}
+.b2{
+	width: 100px;
+	height: 100px;
+	transition: width 0.3s ease;
+	position: relative;
+}
+.b2:hover{
+	background-color: #646464;
+}
+.t1{
+	width: 200px;
+	height: 65px;
+	float: left;
+	color: white;
+	font-size: 25px;
+	padding-top: 35px;
+	padding-left: 25px;
+	position: absolute;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+.i1{
+	width: 50px;
+	height: 50px;
+	float: right;
+	color: white;
+	padding: 25px;
+}
+.i1 img{
+	transition: transform 0.3s ease; 
+}
+.t2{
+	height: 65px;
+	color: white;
+	font-size: 25px;
+	padding-left: 25px;
+	padding-top: 35px;
+	opacity: 0;
+	position: absolute;
+	
+}
+.i2{
+	width: 50px;
+	height: 50px;
+	float: left;
+	color: white;
+	padding: 25px;
+}
+
